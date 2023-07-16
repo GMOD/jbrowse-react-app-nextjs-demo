@@ -1,7 +1,7 @@
 # jbrowse-react-app-nextjs
 
-This is a demo of using the @jbrowse/react-app NPM package with next.js (which
-uses webpack 5)
+This is a demo of using the @jbrowse/react-app NPM package with next13 with the
+app router
 
 ## Demo of `@jbrowse/react-app` with next.js
 
@@ -19,5 +19,5 @@ yarn dev
 
 ## Deploy
 
-This page is deployed to https://jbrowse.org/demos/lgv-nextjs (uses
-`yarn build && yarn export` to create static build with no server side)
+This page is deployed to https://jbrowse.org/demos/app-nextjs (uses
+`output:export` in next.config.js to create static build with no server side)

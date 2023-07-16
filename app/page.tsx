@@ -1,8 +1,10 @@
+'use client'
+
 import React, { useState, useEffect } from 'react'
 import { createViewState, JBrowseApp } from '@jbrowse/react-app'
 import '@fontsource/roboto'
 
-import config from '../utils/config'
+import config from './config'
 
 type ViewModel = ReturnType<typeof createViewState>
 
@@ -23,17 +25,17 @@ function View() {
 
   return (
     <>
-      <h1>JBrowse 2 React App Demo (with next.js)</h1>
+      <h1>JBrowse 2 React App Demo (with next13)</h1>
       <JBrowseApp viewState={viewState} />
       <h3>Code</h3>
       <p>
         The code for this app is available at{' '}
         <a
-          href="https://github.com/GMOD/jbrowse-components/tree/main/embedded_demos/jbrowse-react-app-nextjs"
+          href="https://github.com/GMOD/jbrowse-react-app-nextjs-demo"
           target="_blank"
           rel="noreferrer"
         >
-          https://github.com/GMOD/jbrowse-components/tree/main/embedded_demos/jbrowse-react-app-nextjs
+          https://github.com/GMOD/jbrowse-react-app-nextjs-demo
         </a>
         .
       </p>
