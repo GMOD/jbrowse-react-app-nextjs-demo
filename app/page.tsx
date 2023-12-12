@@ -25,7 +25,7 @@ function View() {
 
   return (
     <>
-      <h1>JBrowse 2 React App Demo (with next13)</h1>
+      <h1>JBrowse 2 React App Demo (with next14)</h1>
       <JBrowseApp viewState={viewState} />
       <h3>Code</h3>
       <p>
