@@ -10,7 +10,7 @@
     "lint": "next lint",
     "predeploy": "npm run build",
     "deploy": "aws s3 sync --delete out s3://jbrowse.org/demos/app-nextjs/",
-    "postdeploy": "aws cloudfront create-invalidation --distribution-id E13LGELJOT4GQO --paths \"/demos/app-nextjs/*\""
+    "postdeploy": "AWS_PAGER=\"\" aws cloudfront  create-invalidation --distribution-id E13LGELJOT4GQO --paths \"/demos/app-nextjs/*\""
   },
   "dependencies": {
     "@fontsource/roboto": "^5.0.5",
