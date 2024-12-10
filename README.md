@@ -1,6 +1,6 @@
 # jbrowse-react-app-nextjs
 
-This is a demo of using the @jbrowse/react-app NPM package with next14 with the
+This is a demo of using the @jbrowse/react-app NPM package with nextjs with the
 app router
 
 ## Demo of `@jbrowse/react-app` with next.js
