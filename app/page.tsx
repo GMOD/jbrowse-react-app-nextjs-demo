@@ -1,6 +1,5 @@
 'use client'
 import React, { useState, useEffect } from 'react'
-import { createRoot, hydrateRoot } from 'react-dom/client'
 import { createViewState, JBrowseApp } from '@jbrowse/react-app'
 
 import makeWorkerInstance from '@jbrowse/react-app/esm/makeWorkerInstance'
@@ -26,9 +25,6 @@ function View() {
       },
 
       makeWorkerInstance,
-
-      hydrateFn: hydrateRoot,
-      createRootFn: createRoot,
     })
     setViewState(state)
   }, [])
