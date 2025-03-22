@@ -3,7 +3,7 @@
 This is a demo of using the @jbrowse/react-app NPM package with nextjs with the
 app router
 
-## Demo of `@jbrowse/react-app` with next.js
+## Demo of `@jbrowse/react-app2` with next.js
 
 See this app running at https://jbrowse.org/demos/app-nextjs/.
 
