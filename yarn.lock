@@ -306,12 +306,12 @@
     quick-lru "^4.0.0"
 
 "@gmod/bbi@^7.0.0":
-  version "7.0.3"
-  resolved "https://registry.yarnpkg.com/@gmod/bbi/-/bbi-7.0.3.tgz#8de63133dc5babed9477bba4d2c00bf4f75f9de0"
-  integrity sha512-p5xRVo++fGmysPp0bmZJJE6L0uFNsglFRk7tjjT2qwprd9RjwePO9ceWqxY0D3BKSxNUnAy0wAf2AixVWosS0Q==
+  version "7.0.4"
+  resolved "https://registry.yarnpkg.com/@gmod/bbi/-/bbi-7.0.4.tgz#c0134a815d82f56e377529a01163759f70dea2b1"
+  integrity sha512-MZivMEHWlUYsX441FyqLR40134kutdzbY6jz0g6hb2GkKqXvBzi/5hlNnEEVBHNd+4jaPUB65JuAfCrgjGHZ/w==
   dependencies:
     "@gmod/abortable-promise-cache" "^3.0.1"
-    generic-filehandle2 "^2.0.1"
+    generic-filehandle2 "^2.0.10"
     pako "^2.0.0"
     quick-lru "^4.0.0"
     rxjs "^7.8.0"
@@ -3112,7 +3112,7 @@ functions-have-names@^1.2.3:
   resolved "https://registry.yarnpkg.com/functions-have-names/-/functions-have-names-1.2.3.tgz#0404fe4ee2ba2f607f0e0ec3c80bae994133b834"
   integrity sha512-xckBUXyTIqT97tq2x2AMb+g163b5JFysYk0x4qxNFwbfQkmNZoiRHb6sPzI9/QV33WeuvVYBUIiD4NzNIyqaRQ==
 
-generic-filehandle2@^2.0.1, generic-filehandle2@^2.0.5:
+generic-filehandle2@^2.0.1, generic-filehandle2@^2.0.10, generic-filehandle2@^2.0.5:
   version "2.0.10"
   resolved "https://registry.yarnpkg.com/generic-filehandle2/-/generic-filehandle2-2.0.10.tgz#98394ccca53bff94045aa6290590ff5af71631b9"
   integrity sha512-8dUyacZU6vJ8upaxPopC/htV2hoNx31zsuuaH3enc+lQRo80xzMLSHnxjjI474tguAXFqK2cZtqrCzAxto/8uw==
