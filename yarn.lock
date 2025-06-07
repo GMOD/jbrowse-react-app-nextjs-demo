@@ -3113,9 +3113,9 @@ functions-have-names@^1.2.3:
   integrity sha512-xckBUXyTIqT97tq2x2AMb+g163b5JFysYk0x4qxNFwbfQkmNZoiRHb6sPzI9/QV33WeuvVYBUIiD4NzNIyqaRQ==
 
 generic-filehandle2@^2.0.1, generic-filehandle2@^2.0.5:
-  version "2.0.8"
-  resolved "https://registry.yarnpkg.com/generic-filehandle2/-/generic-filehandle2-2.0.8.tgz#d834d130cd7d995870f2b83dcd10c83aa928c6ad"
-  integrity sha512-nqJ56woFFMstafHGF9Wi0pH3Nedm/R2XdtDanTdpXu+rEtsQ2I7jwvfvDCCbCeoRUZkUb41nCoGIog6hhndDoA==
+  version "2.0.10"
+  resolved "https://registry.yarnpkg.com/generic-filehandle2/-/generic-filehandle2-2.0.10.tgz#98394ccca53bff94045aa6290590ff5af71631b9"
+  integrity sha512-8dUyacZU6vJ8upaxPopC/htV2hoNx31zsuuaH3enc+lQRo80xzMLSHnxjjI474tguAXFqK2cZtqrCzAxto/8uw==
 
 get-intrinsic@^1.2.4, get-intrinsic@^1.2.5, get-intrinsic@^1.2.6, get-intrinsic@^1.2.7, get-intrinsic@^1.3.0:
   version "1.3.0"
