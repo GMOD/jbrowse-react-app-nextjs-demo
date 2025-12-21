@@ -21,3 +21,13 @@ yarn dev
 
 This page is deployed to https://jbrowse.org/demos/app-nextjs (uses
 `output:export` in next.config.js to create static build with no server side)
+
+## Footnote
+
+Might not work with turbopack (which is next.js v16 default)
+
+Gives errors like:
+
+```
+Module [project]/node_modules/@mui/x-data-grid/index.css [app-client] (css) was instantiated because it was required from module [project]/node_modules/@mui/x-data-grid/DataGrid/index.js [app-client] (ecmascript), but the module factory is not available. It might have been deleted in an HMR update.
+```
