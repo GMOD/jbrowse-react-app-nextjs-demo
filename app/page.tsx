@@ -2,7 +2,6 @@
 import React, { useState, useEffect } from 'react'
 import { createViewState, JBrowseApp } from '@jbrowse/react-app2'
 
-import makeWorkerInstance from '@jbrowse/react-app2/esm/makeWorkerInstance'
 import '@fontsource/roboto'
 
 import config from './config'
@@ -17,14 +16,7 @@ function View() {
     const state = createViewState({
       config: {
         ...config,
-        configuration: {
-          rpc: {
-            defaultDriver: 'WebWorkerRpcDriver',
-          },
-        },
       },
-
-      makeWorkerInstance,
     })
     setViewState(state)
   }, [])
