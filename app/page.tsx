@@ -14,9 +14,7 @@ function View() {
 
   useEffect(() => {
     const state = createViewState({
-      config: {
-        ...config,
-      },
+      config,
     })
     setViewState(state)
   }, [])
