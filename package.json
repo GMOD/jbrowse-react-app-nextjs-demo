@@ -8,9 +8,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "predeploy": "npm run build",
-    "deploy": "aws s3 sync --delete out s3://jbrowse.org/demos/app-nextjs/",
-    "postdeploy": "AWS_PAGER=\"\" aws cloudfront  create-invalidation --distribution-id E13LGELJOT4GQO --paths \"/demos/app-nextjs/*\""
+    "deploy": "pnpm build && aws s3 sync --delete out s3://jbrowse.org/demos/app-nextjs/ && AWS_PAGER=\"\" aws cloudfront create-invalidation --distribution-id E13LGELJOT4GQO --paths \"/demos/app-nextjs/*\""
   },
   "dependencies": {
     "@fontsource/roboto": "^5.0.5",
@@ -27,5 +25,6 @@
   },
   "devDependencies": {
     "prettier": "^3.8.0"
-  }
+  },
+  "packageManager": "pnpm@11.18.0"
 }
